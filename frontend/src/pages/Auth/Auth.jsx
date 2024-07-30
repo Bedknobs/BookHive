@@ -1,6 +1,5 @@
+import AuthZone from "../../components/AuthZone/AuthZone";
 
 export default function Auth() {
-  return (
-    <div>Auth</div>
-  )
+  return <AuthZone />;
 }
