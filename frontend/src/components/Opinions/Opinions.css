@@ -1,0 +1,35 @@
+.opinionsContainer {
+  padding: 1.5rem 9.3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.individualOpinionContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.individualOpinionContainer p {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.starRating {
+  display: inline-block;
+  width: calc(5 * 2.5em);
+  height: 2.5em;
+  background-image: url("../../../src/assets/icons/starIcon.svg");
+  background-size: contain;
+  background-repeat: repeat-x;
+  position: relative;
+}
+
+.verticalDivider {
+  width: 0.3rem;
+  background-color: var(--pink);
+  align-self: stretch;
+  margin: 0 1.5rem;
+}

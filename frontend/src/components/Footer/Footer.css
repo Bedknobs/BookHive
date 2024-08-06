@@ -1,0 +1,19 @@
+.footerContainer,
+.footerNavigation,
+.footerSocialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContainer {
+  background-color: var(--pink);
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.footerNavigation,
+.footerSocialMedia {
+  gap: 3.5rem;
+}
