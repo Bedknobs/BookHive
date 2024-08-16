@@ -10,8 +10,6 @@ public interface CommentService {
 
     void addCommentToUser(String username, Comment comment);
 
-    List<Comment> getComment(String content);
-
     List<Comment> getComments();
 
 }
